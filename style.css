@@ -99,3 +99,101 @@ ul li a:hover {
 .dropdown ul li a:hover {
     background: rgba(29, 42, 59, .1);
 }
+
+.hero-section {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.hero {
+    padding-top: 300px;
+    padding-bottom: 235px;
+    margin-bottom: 50px;
+}
+
+.heading-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.heading-text h1 {
+    font-size: 75px;
+    color: #fff;
+    margin-bottom: 12px;
+    line-height: 85px;
+    font-weight: 500;
+}
+
+.heading-text p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.discover-btn {
+    display: inline-block;
+    font-size: 15px;
+    background: #fff;
+    color: black;
+    padding: 14px 32px 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.filter-form {
+    /* margin-bottom: -60; */
+    /* position: relative;
+    bottom: 0px;
+    left: 0; */
+    width: 100%;
+    position: relative;
+    right: 0;
+    bottom: 120px;
+}
+
+.back-color {
+    background-color: #fff;
+}
+
+.filter-col {
+    display: flex;
+}
+
+.filter-item {
+    margin-bottom: 20px;
+    width: calc(27.33% - 130px);
+    float: left;
+    padding: 28px 0 10px;
+    position: relative;
+    text-align: center;
+}
+
+.filter-item input {
+    text-align: center;
+}
+
+.submit-btn {
+    font-size: 15px;
+    color: #fff;
+    background: #4657f0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    width: 18%;
+    height: 120px;
+    position: relative;
+    right: -1px;
+}
