@@ -2,6 +2,28 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-top {
+    padding: 20px 0;
+}
+
+.spad {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.header__top__widget ul li span {
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+}
+
+.hero {
+    padding-top: 315px;
+    padding-bottom: 235px;
 }
 
 .header {
@@ -98,4 +120,116 @@ ul li a:hover {
 
 .dropdown ul li a:hover {
     background: rgba(29, 42, 59, .1);
+}
+
+
+/* .header-options {
+    margin-bottom: 150px;
+} */
+
+.hero-text {
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero-text h2 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 85px;
+    margin-bottom: 12px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-discover {
+    display: inline-block;
+    font-size: 15px;
+    color: #1d2a3b;
+    background: #fff;
+    padding: 14px 32px 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 0%;
+}
+
+.search-section {
+    background-color: blue;
+}
+
+.bg-color {
+    background-color: #fff;
+}
+
+.hero-img {
+    background-image: url(hero.webp);
+}
+
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.search-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-text,
+.place-item {
+    position: relative;
+}
+
+.search-text {
+    border-right: 1px solid grey;
+}
+
+.place-item input {
+    border: none;
+}
+
+.search-btn {
+    font-size: 15px;
+    color: #fff;
+    background: #4657f0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    right: -1px;
+}
+
+.col-width {
+    width: 20%;
+}
+
+.search-filter {
+    margin-top: -60px;
+}
+
+.col-lg-3 {
+    width: 27.0%;
+}
+
+.text-style {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+.text-style h3 {
+    color: #1d2a3b;
+    font-size: 20px;
+    font-weight: 700;
 }
