@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+body {
+    box-shadow:0px 5px rgb(226, 221, 221) ;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.menubar {
+ padding: 10px 0px;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+.logo, .menulist, .listitem {
+    display: inline-block;
+    width: 33%;
+    list-style: none;
+}
+.item {
+    display: inline;
+    padding: 10px 25px;
+}
+.item a {
+    text-decoration: none;
+    color: grey;
+    display: inline;
+    font-size: 18px;
+}
+.tryfree-btn {
+    padding: 10px 20px;
+    background-color: #ffb549;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+}

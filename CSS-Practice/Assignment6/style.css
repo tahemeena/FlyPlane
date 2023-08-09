@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", "Regular";
+}
+body .header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  border: 1px solid black;
+  align-items: center;
+  background-color: #E30613;
+}
+body .header .logo {
+  width: 120px;
+}
+body .header .searchbar {
+  display: flex;
+}
+body .header .searchbar .search-cnt {
+  flex-grow: 1;
+  padding: 5px;
+  border: none;
+}
+body .header .searchbar .searchicon {
+  background-color: #FFC423;
+  border: none;
+}
+body .header .searchbar .searchicon i {
+  font-weight: 100;
+}
+body .header .myaccount {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body .header .myaccount span, body .header .myaccount a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+body .menubar {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  border: 1px solid black;
+}
+body .menubar .category {
+  background-color: #FFC423;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+}
+body .menubar .menuitem .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+body .menubar .menuitem .list .item {
+  list-style: none;
+}
+body .menubar .menuitem .list a {
+  text-decoration: none;
+  text-align: left;
+  color: #000;
+  font-size: 12px;
+}
+body .submenu {
+  display: grid;
+  grid-template-columns: auto;
+  border: 1px solid black;
+}
+body .hero-section .hero-container {
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  border: 1px solid black;
+}
+body .hero-section .hero-container .hero-leftside,
+body .hero-section .hero-container .hero-rightside {
+  padding: 100px;
+  border: 1px solid black;
+}
+body .hero-section .all-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+body .hero-section .btn {
+  padding: 10px;
+}
+body .mycarts-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+body .mycarts-section .cart-details {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
